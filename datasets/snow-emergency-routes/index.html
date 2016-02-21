@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Snow Emergency Routes</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/jkan/css/main.css">
+  <link rel="canonical" href="/jkan/datasets/snow-emergency-routes/">
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/jkan/">JKAN</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+          
+            <li class="active"><a href="/jkan/datasets/">Datasets <span class="sr-only">(current)</span></a></li>
+          
+        
+          
+            <li><a href="/jkan/organizations/">Organizations</a></li>
+          
+        
+          
+            <li><a href="/jkan/categories/">Categories</a></li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <section id="main" class="container">
+      <ol class="breadcrumb">
+  
+    <li><a href="/jkan/"><i class="fa fa-home" aria-label="Home"></i></a></li>
+    
+      
+      
+        <li><a href="/jkan/datasets/">Datasets</a></li>
+      
+    
+    <li class="active">Snow Emergency Routes</li>
+  
+</ol>
+
+
+<div class="row">
+  <div class="col-sm-3">
+    
+      <a href="/jkan/organizations/streets-department/" class="thumbnail"><img src="http://communitymarketingconcepts.com/wp-content/uploads/2014/04/community-marketing-concept-city-of-phila-recycle-logo-2.jpg"></a>
+    
+    <h3><a href="/jkan/organizations/streets-department/">Streets Department</a></h3>
+    <p>Streets Department, City of Philadelphia</p>
+  </div>
+  <div class="col-sm-9">
+    <h1>Snow Emergency Routes</h1>
+    <p>From the Streets Department snow emergency route page
+
+When snow accumulations approach emergency status, the Managing Director may declare a snow emergency. Once emergency status is declared, the City's 110 miles of Snow Emergency Routes receive priority. Owners of vehicles and dumpsters must move them to alternate parking spaces so City forces can clear snow from curb-to-curb on the emergency routes. Any vehicle remaining on a Snow Emergency Route during the declared Snow Emergency will be ticketed and towed. If your car is towed, call 215-686-SNOW for its location. Do NOT call 911.
+The snow-emergency-routes.csv file was created from the table on the Streets Department snow emergency route page. I used this file to generate the snow-emergency-route-segment-ids.csv file.
+
+The snow-emergency-route-segment-ids.csv file contains the IDs of all of the street segments that are classified as snow emergency routes. The snow emergency routes shapefile/geojson is built by filtering the street centerline layer to include only those rows where the seg_id is contained in this list.</p>
+
+    <h2>Resources</h2>
+    <ul>
+      
+      <li>
+        <a href="http://dev.socrata.com/foundry/#/data.phila.gov/xgeq-dez5">Snow Emergency Routes API Docs</a>
+        (HTML)
+      </li>
+      
+      <li>
+        <a href="https://data.phila.gov/resource/xgeq-dez5.json">Snow Emergency Routes API</a>
+        (api)
+      </li>
+      
+      <li>
+        <a href="https://data.phila.gov/api/views/xgeq-dez5/rows.csv?accessType=DOWNLOAD">Snow Emergency Routes CSV</a>
+        (CSV)
+      </li>
+      
+      <li>
+        <a href="https://raw.githubusercontent.com/CityOfPhiladelphia/phl-snow-emergency-routes/master/snow-emergency-route-segment-ids.csv">Snow Emergency Routes Segment IDs CSV</a>
+        (CSV)
+      </li>
+      
+    </ul>
+
+    <h2>Additional Info</h2>
+    <dl>
+      
+      <dt>Category</dt>
+      <dd>
+        
+          
+            <a href="/jkan/categories/uncategorized">Uncategorized</a><br>
+          
+        
+      </dd>
+      
+
+      
+      <dt>Maintainer</dt>
+      <dd></dd>
+      
+      
+      
+      <dt>Maintainer Email</dt>
+      <dd></dd>
+      
+    </dl>
+  </div>
+</div>
+
+    </section>
+
+    <footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="/jkan/scripts/index.js"></script>
+
+
+  </body>
+
+</html>
